@@ -98,8 +98,7 @@ class WithdrawState(StatesGroup):
 
 router = Router()
 
-ADMIN_ID = 6130985988
-
+ADMIN_ID = 7921743592
 
 # --- Вспомогательные клавиатуры ---
 def get_withdraw_methods_kb():
