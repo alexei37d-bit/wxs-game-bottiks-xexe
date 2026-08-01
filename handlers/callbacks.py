@@ -1038,7 +1038,7 @@ async def start_cube_lobby_cmd(message: Message, bot: Bot):
     lobby_msg = await message.answer(lobby_text, parse_mode="HTML")
     active_pve_3cube_games[game_key]["lobby_msg_id"] = lobby_msg.message_id
 
-    await asyncio.sleep(1.7)
+    await asyncio.sleep(2.4)
 
     bot_dices = []
     for _ in range(cube_count):
