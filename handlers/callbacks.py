@@ -594,7 +594,7 @@ async def transfer_balance_reply(message: types.Message):
         '<tg-emoji emoji-id="5469669782355713209">😛</tg-emoji>'
         f" <b>Сумма:</b> {amount:.2f}<tg-emoji emoji-id=\"4956601935592424315\">💵</tg-emoji>\n\n"
         '<tg-emoji emoji-id="5769126056262898415">👛</tg-emoji> Баланс отправителя:'
-        f" <b>{new_sender_balance:.2f} $</b>"
+        f" <b>{new_sender_balance:.2f} <tg-emoji emoji-id=\"4956601935592424315\">💵</tg-emoji></b>"
     )
 
     await message.reply(text, parse_mode="HTML")
